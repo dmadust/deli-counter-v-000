@@ -9,4 +9,4 @@ def line(queue)
   end
 end
 
-line("Allen", "Frances", "Ronald")
+puts line([]"Allen", "Frances", "Ronald"])

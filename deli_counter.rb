@@ -5,5 +5,8 @@ def line(queue)
   else
     places = "The line is currently: "
     queue.each_with_index{|person, i| places << "#{i + 1}. #{person} "
+    places.strip()
   end
 end
+
+line("Allen", "Frances", "Ronald")
